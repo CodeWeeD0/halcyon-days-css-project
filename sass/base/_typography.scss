@@ -1,0 +1,33 @@
+body{
+	font-family: 'K2D';
+	font-weight: 400;
+	line-height: 1.7;
+}
+
+
+.heading-primary{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &-main{
+        letter-spacing: 5px;
+        font-size: 25px;
+        width: 100%;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        &-white{
+            margin-left: 10px; 
+            color: white;
+        }
+    }
+
+    &-sub{
+        font-size: 15px;
+    }
+}

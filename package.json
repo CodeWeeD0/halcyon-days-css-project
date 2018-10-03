@@ -1,0 +1,17 @@
+{
+  "name": "halcyon",
+  "version": "1.0.0",
+  "description": "A css/sass project",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass ./sass/main.scss ./css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel watch:sass devserver"
+  },
+  "author": "CodeWeeD0",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3"
+  }
+}

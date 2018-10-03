@@ -1,0 +1,18 @@
+.header{
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, rgba(226, 226, 226, .4), rgba(140, 140, 140, .6)),url(../images/header-background.jpg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    .text-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+	}
+}
