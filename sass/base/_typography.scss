@@ -13,8 +13,8 @@ body{
     align-items: center;
 
     &-main{
-        letter-spacing: 5px;
-        font-size: 25px;
+        letter-spacing: .5rem;
+        font-size: 2.5rem;
         width: 100%;
         text-transform: uppercase;
         display: flex;
@@ -23,11 +23,12 @@ body{
         
         &-white{
             margin-left: 10px; 
-            color: white;
+            color: #fff;
         }
     }
 
     &-sub{
         font-size: 15px;
+        color: $color-text-grey; 
     }
 }

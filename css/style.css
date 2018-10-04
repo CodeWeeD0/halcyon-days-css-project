@@ -23,7 +23,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 0;
   /*@include respond(tab-port){
 		padding: 0;
 	}*/ }
@@ -40,8 +40,8 @@ body {
   justify-content: center;
   align-items: center; }
   .heading-primary-main {
-    letter-spacing: 5px;
-    font-size: 25px;
+    letter-spacing: .5rem;
+    font-size: 2.5rem;
     width: 100%;
     text-transform: uppercase;
     display: flex;
@@ -49,9 +49,33 @@ body {
     align-items: center; }
     .heading-primary-main-white {
       margin-left: 10px;
-      color: white; }
+      color: #fff; }
   .heading-primary-sub {
-    font-size: 15px; }
+    font-size: 15px;
+    color: #e2e0e0; }
+
+.btn, .btn:link, .btn:visited {
+  margin-top: .9rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: .5rem;
+  background-color: #00d1b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 2px 1px 1px #009782; }
+
+.btn:active, .btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0px 0.5px 0px 0px #009782; }
 
 .header {
   height: 90vh;
@@ -65,3 +89,19 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; }
+
+.intro {
+  height: 30rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fafaff; }
+  .intro__title {
+    font-size: 2rem;
+    text-transform: uppercase; }
+  .intro__para {
+    padding: 0 30rem 0 30rem;
+    font-size: 1.4rem;
+    color: #999b9e; }

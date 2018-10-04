@@ -1,0 +1,23 @@
+.intro{
+    height: 30rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color-off-white;
+    &__title{
+        font-size: 2rem;
+        text-transform: uppercase;
+
+        &-divider{
+        }
+    }
+
+    &__para{
+        padding: 0 30rem 0 30rem;
+        //flex-shrink: 50;
+        font-size: 1.4rem;
+        color: $color-text-grey-dark;
+    }
+}
