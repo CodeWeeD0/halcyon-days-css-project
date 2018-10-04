@@ -1,23 +1,38 @@
 .intro{
-    height: 30rem;
-    padding-top: 3rem;
+    height: 40rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: $color-off-white;
     &__title{
+
         font-size: 2rem;
         text-transform: uppercase;
 
         &-divider{
+            padding-top: 1.5rem;
+            padding-bottom: 5rem;
+            position: relative;
+            font-size: 1.5rem;
+            letter-spacing: .9rem;
+            color: $color-text-grey-dark;
+
+            &-chev{
+                position: absolute;
+                width: 1.8rem;
+                top: -4.6rem;
+            }
         }
     }
 
     &__para{
-        padding: 0 30rem 0 30rem;
+        padding: 0 30rem 10rem 30rem;
         //flex-shrink: 50;
         font-size: 1.4rem;
         color: $color-text-grey-dark;
+
+        text-align: center;
     }
 }
