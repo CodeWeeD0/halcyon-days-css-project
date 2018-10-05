@@ -10,21 +10,6 @@
 
         font-size: 2rem;
         text-transform: uppercase;
-
-        &-divider{
-            padding-top: 1.5rem;
-            padding-bottom: 5rem;
-            position: relative;
-            font-size: 1.5rem;
-            letter-spacing: .9rem;
-            color: $color-text-grey-dark;
-
-            &-chev{
-                position: absolute;
-                width: 1.8rem;
-                top: -4.6rem;
-            }
-        }
     }
 
     &__para{

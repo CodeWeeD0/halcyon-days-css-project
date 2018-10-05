@@ -1,0 +1,13 @@
+.divider{
+    padding: 2rem 0 2rem 0;
+    position: relative;
+    font-size: 1.5rem;
+    letter-spacing: .9rem;
+    color: $color-text-grey-dark;
+
+    &-chev{
+        position: absolute;
+        width: 1.8rem;
+        top: -4.1rem;
+    }
+}

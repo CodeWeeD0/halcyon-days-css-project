@@ -1,5 +1,5 @@
 .features{
-    height: 60rem;
+    height: 68rem;
     padding-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -10,20 +10,6 @@
 
         font-size: 2rem;
         text-transform: uppercase;
-
-        &-divider{
-            padding: 2rem 0 2rem 0;
-            position: relative;
-            font-size: 1.5rem;
-            letter-spacing: .9rem;
-            color: $color-text-grey-dark;
-
-            &-chev{
-                position: absolute;
-                width: 1.8rem;
-                top: -3.8rem;
-            }
-        }
     }
 
     &__explain{
