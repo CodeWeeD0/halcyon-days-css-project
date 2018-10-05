@@ -1,0 +1,52 @@
+.banner{
+    height: 50vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 220, 226, .4), 
+    rgba(140, 140, 140, .6)),url(../images/banner.jpg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    &__heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: #FFF;
+
+        &-prim{
+            //width: 100%;
+            font-size: 3.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+        }
+
+        &-sec{
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: .5rem;
+        }
+    }
+
+    &__arr{
+        height: 4rem;
+        width: 4rem;
+        background-color: $color-secondary;
+        border-radius: 50%;
+
+        position: relative;
+
+        &-chev{
+            height: 2rem;
+            width: 2rem;
+            fill: #FFF;
+
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+        }
+    }
+
+}
