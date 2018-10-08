@@ -144,6 +144,14 @@ body {
     justify-content: center;
     align-items: center; }
 
+.contactus {
+  background-image: linear-gradient(to right bottom, white, rgba(255, 255, 255, 0.9)), url(../images/contactus.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: canter;
+  flex-wrap: wrap; }
+
 .details {
   height: 69.5rem;
   margin-top: 10rem;
@@ -301,6 +309,133 @@ body {
     font-size: 1.4rem;
     color: #999b9e;
     text-align: center; }
+
+.newsletter {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #282c34; }
+  .newsletter__header {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .newsletter__header-svg {
+      fill: #fff;
+      width: 5rem;
+      height: 5rem; }
+    .newsletter__header-text {
+      color: #fff;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: .2rem; }
+  .newsletter__input {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
+    .newsletter__input-textbox {
+      margin-top: 3rem;
+      margin-right: 1rem;
+      width: 40rem;
+      height: 5rem;
+      border: 1px solid #fff;
+      background-color: #282c34;
+      border-radius: 3px; }
+    .newsletter__input-btn {
+      padding: 1.7rem 2rem;
+      text-decoration: none;
+      display: inline-block;
+      color: #fff;
+      background-color: #00d1b3;
+      border: none;
+      border-radius: 3px;
+      font-size: 1.5rem;
+      letter-spacing: .1rem;
+      text-transform: uppercase; }
+      .newsletter__input-btn:hover {
+        background-color: #009782; }
+
+.team {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .team__body {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .team__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .team__header-title {
+      width: 100%;
+      font-size: 2.5rem;
+      letter-spacing: .2rem;
+      font-weight: 600;
+      color: #383838;
+      text-transform: uppercase; }
+  .team__invcard {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .team__invcard-img {
+      height: 20rem;
+      width: 20rem;
+      border-radius: 50%;
+      margin-bottom: 2rem; }
+    .team__invcard-name {
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: .3rem; }
+    .team__invcard-dash {
+      font-size: 5rem;
+      color: #00cab4;
+      transform: skewX(30deg) translateY(-18px) translateX(5px);
+      font-weight: 800; }
+    .team__invcard-text {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #999b9e;
+      padding-bottom: 1rem; }
+    .team__invcard-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+
+.link__icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #282c34;
+  border-radius: 50%;
+  margin: .5rem;
+  position: relative;
+  transition: all .3s; }
+  .link__icon-svg {
+    width: 2.8rem;
+    height: 2.8rem;
+    fill: #fff;
+    position: absolute;
+    transform: translate(20%, 20%); }
+  .link__icon:hover {
+    background-color: #00cab4; }
 
 .viewmore {
   height: 90vh;

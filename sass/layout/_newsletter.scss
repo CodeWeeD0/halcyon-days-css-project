@@ -1,0 +1,68 @@
+.newsletter{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background-color: #282c34;
+
+    &__header{
+        padding: 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        &-svg{
+            fill: #fff;
+            width: 5rem;
+            height: 5rem;
+        }
+        &-text{
+            color: #fff;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+
+        }
+    }
+
+    &__input{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        &-textbox{
+            margin-top: 3rem;
+            margin-right: 1rem;
+            width: 40rem;
+            height: 5rem;
+            border: 1px solid #fff;
+            background-color: #282c34;
+
+            border-radius: 3px;
+        }
+
+        &-btn{
+            padding: 1.7rem 2rem;
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            background-color: $color-secondary;
+            border: none;
+            border-radius: 3px;
+
+            font-size: 1.5rem;
+            letter-spacing: .1rem;
+            text-transform: uppercase;
+
+            &:hover{
+                background-color: $color-secondary-dark;
+            }
+        }
+    }
+}
