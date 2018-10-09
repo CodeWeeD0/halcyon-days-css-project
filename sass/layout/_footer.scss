@@ -1,0 +1,62 @@
+.footer{
+    //flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    //flex-wrap: wrap;
+    display: flex;
+
+    height: 20vh;
+
+    background-color: #282c34;//
+
+    &__left{
+        padding: 1rem;
+
+        & > *{
+            text-decoration: none;
+            color: #fff;
+
+            font-size: 1.8rem;
+            font-weight: 100;
+        }
+        
+        &-tc{
+            margin: 1rem;
+
+            &:hover{
+                color: $color-text-grey-dark;
+            }
+        }
+
+        &-legal{
+            margin: 1rem;
+
+            &:hover{
+                color: $color-text-grey-dark;
+            }
+        }
+    }
+
+
+    &__right{
+        padding: 1rem;
+
+        &-text{
+            color: #fff;
+
+            font-size: 1.5rem;
+            font-weight: 100;
+            margin: 1rem;
+        }
+
+        &-links{
+            text-decoration: none;
+            color: $color-text-grey;
+
+
+            &:hover{
+                color: $color-text-grey-dark;
+            }
+        }
+    }
+}

@@ -1,12 +1,92 @@
 .contactus{
-    background-image: linear-gradient(to right bottom, 
-    rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9)),
+    padding-top: 5rem;
+
+    background-image: linear-gradient(to right, 
+    rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7)),
     url(../images/contactus.jpeg);
 
     background-size: cover;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: canter;
+    align-items: center;
     flex-wrap: wrap;
+
+    &__header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &-title{
+            padding-left: 22%;
+            width: 100%;
+            font-size: 2.5rem;
+            letter-spacing: .3rem;
+            font-weight: 500;
+            color: #383838;
+            text-transform: uppercase;
+        }
+    }
+
+    &__cardgroup{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            background-color: #fff;
+            border-radius: 3px;
+
+            padding: 3rem;
+            margin: 2rem;
+            width: 36rem;
+
+
+            &-svg{
+                width: 2rem;
+                height: 2rem;
+
+                fill: #292c34;
+
+                margin: .5rem;
+            }
+
+            &-tag{
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                letter-spacing: .2rem;
+
+                color: $color-secondary;
+
+                padding: 1rem 0;
+            }
+
+            &-addr{
+                text-transform: uppercase;
+                font-size: 1.4rem;
+                letter-spacing: .1rem;
+                font-weight: 400;
+
+                padding: 0 1rem;
+                color: $color-text-grey-dark;
+            }
+
+        }
+    }
+
+    &__links{
+        margin: 10rem 0 8rem 0;
+
+    }
 }
