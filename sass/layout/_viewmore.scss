@@ -1,11 +1,11 @@
 .viewmore{
-    height: 90vh;
+    //height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
     &__invcard{
-
+        margin: 10rem 3rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -13,7 +13,22 @@
         flex-wrap: wrap;
         
         height: 100%;
-        padding: 0 5rem;
+        padding: 1rem 5rem;
+        width: 30rem;
+
+        @include respond(tab-land){
+            width: 25rem;
+        }
+        @include respond(tab-port){
+            width: 24rem;
+            padding: 1rem 1rem;
+            margin: 6rem 1rem;
+        }
+        @include respond(phone){
+            width: 25rem;
+            padding: 1rem 1rem;
+            margin: 6rem 1rem;
+        }
 
         &-hover{
             position: relative;
@@ -53,13 +68,40 @@
                     position: absolute;
                     top: 15rem;
                     color: #fff;
+
+                    @include respond(tab-land){
+                        top: 13rem;
+                    }
+                    @include respond(tab-port){
+                        top: 13rem;
+                    }
+                    @include respond(phone){
+                        top: 13rem;
+                    }
                 }
 
                 &::before{
                     content: "";
                     display: inline-block;
                     height: 20rem;
+
+
                     width: 30rem;
+
+                    @include respond(tab-land){
+                        width: 25rem;
+                        height: 16.5rem;
+                    }
+                    @include respond(tab-port){
+                        width: 24rem;
+                        height: 16rem;
+                    }
+                    @include respond(phone){
+                        width: 25rem;
+                        height: 16.5rem;
+                    }
+
+
                     background-image: linear-gradient(to right bottom, rgba(0, 220, 226, .4), 
                     rgba(140, 140, 140, .6));
                 }
@@ -67,7 +109,15 @@
 
             &-pic{
                 width: 30rem;     
-                
+                @include respond(tab-land){
+                    width: 25rem;
+                }
+                @include respond(tab-port){
+                    width: 24rem;
+                }
+                @include respond(phone){
+                    width: 25rem;
+                }
             }
         }
 
@@ -90,7 +140,7 @@
         }
 
         &-text{
-            width: 75%;
+            
 
             text-align: center;
             font-size: 1.3rem;
